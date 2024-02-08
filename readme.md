@@ -36,6 +36,6 @@ pip install -r requirements.txt
 
 ## Endpoints da API
 
-- **POST /http://127.0.0.1:3000/create_tag**: Retorna um json com as informações da etiqueta criada, a etique é armazanada na pasta raiz do projeto
+- **POST http://127.0.0.1:3000/create_tag**: Retorna um json com as informações da etiqueta criada, a etique é armazanada na pasta raiz do projeto
 
 - body json **{"product_code": "123"}**
