@@ -16,7 +16,7 @@ Este repositório contém um projeto em Python para uma API que gera etiquetas com
 
 1. Clone este repositório:
 
-https://github.com/joaovc800/tag_creator.git
+- https://github.com/joaovc800/tag_creator.git
 
 
 2. Crie um ambiente virtual e instale as dependências:
@@ -29,13 +29,13 @@ pip install -r requirements.txt
 
 3. Execute a aplicação:
 
-py run.py
+- py run.py
 
 
 4. A API estará disponível em `http://127.0.0.1:3000`.
 
 ## Endpoints da API
 
-- **POST /http://127.0.0.1:3000/create_tag**: Retorna a etiqueta com o código de barras correspondente ao código fornecido.
+- **POST /http://127.0.0.1:3000/create_tag**: Retorna um json com as informações da etiqueta criada, a etique é armazanada na pasta raiz do projeto
 
 - body json **{"product_code": "123"}**
